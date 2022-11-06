@@ -1,0 +1,1105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+div.header {
+  background: rgb(51, 53, 69);
+  height: 70px;
+}
+div.margin {
+  margin: 0 10%;
+}
+div.header div.book-icon {
+  display: flex;
+  float: left;
+}
+div.header div.book-icon input {
+  height: 35px;
+  width: 550px;
+  margin: 17px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+}
+div.header div.book-icon div.mag-glass {
+  font-size: 20px;
+  margin: 20px 0 0 -52px;
+  cursor: pointer;
+  transition: transform(0.4s);
+  transition-duration: 600ms;
+}
+div.header div.book-icon div.mag-glass:hover {
+  transform: scale(1.09);
+}
+/***Header Right****/
+div.header-right {
+  float: right;
+  margin-top: 20px;
+  display: flex;
+}
+
+div.header-right select {
+  background: rgb(51, 53, 69);
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.563);
+  font-size: 18px;
+  width: 100px;
+}
+div.header-right select:hover {
+  color: #ffffff;
+}
+div.header-right input {
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  margin: 0 15px;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.491);
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  transition: transform 0.4s;
+  transition-duration: 500ms;
+}
+div.header-right input:hover {
+  transform: scale(0.91);
+  background: rgba(200, 0, 0, 0.634);
+}
+div.header-right div.hamburger-icon {
+  display: none;
+}
+/*****/
+div.header1 {
+  background: rgb(34, 37, 57);
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+div.header1 div.head1 {
+  display: flex;
+  justify-content: space-between;
+}
+div.header1 div.head1 div.head1-left ul {
+  display: flex;
+  list-style: none;
+  margin-top: 8px;
+}
+div.header1 div.head1 div.head1-right ul {
+  display: flex;
+  list-style: none;
+  margin-top: 8px;
+}
+div.header1 div.head1 div ul li {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 7px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform(0.3s);
+  transition-duration: 500ms;
+  padding-bottom: 9px;
+}
+div.header1 div.head1 div ul li:hover {
+  color: #ffffff;
+}
+div.header1 div.head1 div ul li span {
+  font-size: 9px;
+  color: red;
+  position: relative;
+  top: -11px;
+}
+/****/
+/***
+******/
+
+/***
+uygudycdhc
+wvsd*/
+div.main {
+  margin: 60px 0 0 0;
+}
+div.main div.margin-large {
+  margin: 0 7%;
+}
+div.main div.margin-large h4 {
+  margin-left: 60px;
+}
+div.main div.margin-large div.flex {
+  display: flex;
+}
+div.main div.margin-large div.flex div.car {
+  cursor: pointer;
+  margin: 0 11px;
+  transition: transform 0.4s;
+  transition-duration: 300ms;
+}
+div.main div.margin-large div.flex div.car a {
+  margin: 10px;
+}
+div.main div.margin-large div.flex div.car img {
+  height: 400px;
+}
+div.main div.margin-large div.flex div.car:hover {
+  transform: scale(0.95);
+}
+div.main div.margin-large div.flex div.car img {
+  border-radius: 10px;
+}
+
+div.main div.margin-large div.flex #fa {
+  margin: 12% 0;
+}
+
+div.main div.margin-large div.flex i {
+  font-size: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 55%;
+  transition: transform 0.4s;
+  transition-duration: 300ms;
+}
+div.main div.margin-large div.flex div.fa-left {
+  position: relative;
+  left: 5px;
+}
+div.main div.margin-large div.flex div.fa-right {
+  position: relative;
+  right: 5px;
+}
+div.main div.margin-large div.flex i:hover {
+  transform: scale(0.96);
+  color: #000000;
+  background: white;
+}
+/*******/
+div.main1 div.margin img {
+  margin: 70px 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/*****/
+div.main2 div.margin-large {
+  margin: 0 7%;
+}
+div.main2 div.margin-large h3 {
+  margin: 0 0 8px 58px;
+}
+div.main2 div.margin-large div.flex {
+  display: flex;
+}
+div.main2 div.margin-large div.flex div.main2-card img {
+  height: 230px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  transition-duration: 300ms;
+}
+div.main2 div.margin-large div.flex div.main2-card img:hover {
+  transform: scale(0.97);
+}
+div.main2 div.margin-large div.flex div.main2-card {
+  margin: 0 9px 50px 9px;
+}
+div.main2 div.margin-large div.flex i {
+  font-size: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 55%;
+  transition: transform 0.4s;
+  transition-duration: 300ms;
+}
+div.main2 div.margin-large div.flex i:hover {
+  transform: scale(0.92);
+  color: #000000;
+  background: white;
+}
+div.main2 div.margin-large div.flex div#fa {
+  margin: 6% 0px;
+}
+/*********/
+
+div.main3 {
+  height: 630px;
+  width: 100%;
+  background: rgb(43, 49, 72);
+  margin: 20px 0 50px 0;
+}
+
+div.main3 div.margin div.main3-img1 {
+  cursor: pointer;
+  margin-left: 10px;
+}
+div.main3 div.margin div.main3-img1 img {
+  width: 1250px;
+}
+div.main3 div.margin div.main3-img1 h4,
+div.main3 div.margin div.main3-img1 p {
+  color: #ffffff;
+}
+
+div.main3 div.margin div.flex2 {
+  display: flex;
+}
+div.main3 div.margin div.flex2 div {
+  margin: 0 8px;
+  cursor: pointer;
+}
+div.main3 div.margin div.flex2 div.main3-movie img {
+  height: 350px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.4s;
+  transition-duration: 500ms;
+}
+div.main3 div.margin div.flex2 div.main3-movie img:hover {
+  transform: scale(0.95);
+}
+div.main3 div.margin div.flex2 div.main3-movie h4 {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 20px;
+  height: 20px;
+}
+div.main3 div.margin div.flex2 div.main3-movie p {
+  color: #ffffff;
+  font-size: 15px;
+}
+/****
+efjcbwejk
+eofwe**/
+div.main4 {
+  height: 300px;
+  margin: 50px 0;
+}
+div.main4 div.margin div.flex1 {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+div.main4 div.margin div.flex1 div.movie {
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  cursor: pointer;
+  background: rgb(231, 231, 231);
+  margin: 0 20px 0 0;
+  padding: 12px 0 0 15px;
+}
+div.main4 div.margin div.flex1 div.movie:hover {
+  border: 0.5px solid rgb(248, 68, 100);
+}
+div.main4 div.margin div.flex1 div.movie h5 {
+  font-size: 18px;
+  color: rgb(248, 68, 100);
+}
+div.main4 div.margin div.flex1 div.movie p {
+  font-size: 14px;
+  color: rgba(51, 45, 45, 0.84);
+}
+div.main4 div.margin div.flex2 {
+  margin-top: 20px;
+  display: flex;
+}
+div.main4 div.margin div.flex2 div.movie {
+  width: 160px;
+  height: 80px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  cursor: pointer;
+  background: rgb(231, 231, 231);
+  margin: 0 20px 0 0;
+  padding: 12px 0 0 15px;
+}
+div.main4 div.margin div.flex2 div.movie:hover {
+  border: 0.5px solid rgb(248, 68, 100);
+}
+div.main4 div.margin div.flex2 div.movie h5 {
+  font-size: 18px;
+  color: rgb(248, 68, 100);
+}
+div.main4 div.margin div.flex2 div.movie p {
+  font-size: 14px;
+  color: rgba(51, 45, 45, 0.84);
+}
+/******jefb
+efbwej
+kwekfjb**/
+div.main5 {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+div.main5 div.margin div.flex {
+  display: flex;
+}
+div.main5 div.margin div.flex div.content {
+  margin-right: 50px;
+  width: 215px;
+  cursor: pointer;
+}
+div.main5 div.margin div.flex div.content img {
+  border-radius: 10px;
+  height: 270px;
+  transition: transform 0.4s;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+div.main5 div.margin div.flex div.content img:hover {
+  transform: scale(0.97);
+}
+div.main5 div.margin div.flex div.content h5 {
+  font-size: 18px;
+  margin-top: 8px;
+}
+div.main5 div.margin div.flex div.content p {
+  font-weight: 200;
+  color: #7c7a7a;
+} /****edj4
+ejfn
+ef
+888*/
+div.main6 {
+  width: 100%;
+  background: rgb(238, 235, 235);
+  margin-bottom: 30px;
+}
+div.main6 div.margin div.content {
+  height: 30px;
+  width: 100%;
+}
+div.main6 div.margin div.content h6 {
+  color: #6e6b6b;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+/******
+r
+::-webkit-validation-bubbleerbv
+ervb*/
+div.footer {
+  width: 100%;
+  height: 100%;
+  background: rgb(49, 48, 53);
+}
+div.footer div.margin div.footer1 {
+  display: block;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.footer div.margin div.footer1 div.foott {
+  display: flex;
+  align-items: center;
+}
+div.footer div.margin div.footer1 div.foott img {
+  height: 50px;
+}
+div.footer div.margin div.footer1 div.foott div {
+  margin: 10px;
+  color: #ffffff;
+}
+div.footer div.margin div.footer1 div.foott div#listyourshow {
+  font-size: 25px;
+}
+
+div.footer div.margin div.footer1 div.buton a {
+  padding: 10px 20px;
+  background: rgb(201, 49, 49);
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: transform(0.4s);
+  transition-duration: 500ms;
+}
+div.footer div.margin div.footer1 div.buton a:hover {
+  transform: scale(0.91);
+  background: rgba(200, 0, 0, 0.634);
+}
+div.footer div.margin div.footer2 {
+  width: 100%;
+  margin: 30px 0;
+}
+div.footer div.margin div.footer2 img {
+  cursor: pointer;
+  width: 100%;
+}
+/***ffbfg
+h
+gfb
+gb**/
+div.footer div.margin div.footer3 {
+  width: 100%;
+  margin: 50px 0 40px 0;
+}
+div.footer div.margin div.footer3 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer3 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer3 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer4 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer4 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer4 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer4 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer5 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer5 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer5 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer5 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer6 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer6 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer6 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer6 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer7 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer7 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer7 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer7 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer8 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer8 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer8 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer8 a:last-child {
+  border: none;
+}
+div.footer div.margin div.footer9 {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+div.footer div.margin div.footer9 h6 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.44);
+}
+div.footer div.margin div.footer9 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.44);
+  padding-right: 5px;
+}
+div.footer div.margin div.footer9 a:last-child {
+  border: none;
+}
+div.footer div.margin div.bookmyshow div.leftline {
+  height: 1px;
+  background: rgb(93, 93, 95);
+  flex: 1 1 0%;
+}
+div.footer div.margin div.bookmyshow div.rightline {
+  height: 1px;
+  background: rgb(93, 93, 95);
+  flex: 1 1 0%;
+}
+div.footer div.margin div.bookmyshow {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+div.footer div.margin div.socialmedia {
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+}
+div.footer div.margin div.socialmedia i {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+  background: rgb(67, 66, 66);
+  border-radius: 50px;
+  padding: 3px;
+}
+div.footer div.margin div.socialmedia i:hover {
+  color: #ffffff;
+  background: #000000;
+}
+div.footer div.margin div.end {
+  height: 130px;
+  width: 100%;
+  margin: 40px 0 0px 0;
+  align-items: center;
+  text-align: center;
+  font-size: 11px;
+  color: rgb(84, 81, 81);
+}
+div.footer div.margin div.foot-link a {
+  transition: transform(0.4s);
+  transition-duration: 100ms;
+}
+div.footer div.margin div.foot-link a:hover {
+  color: #ffffff;
+}
+
+/**
+8
+ytj
+fgn
+gfnj
+trh
+tj
+n
+gtb
+dnhgtnhtf
+jn
+tfgtnfgn
+fgn
+ntfg
+hntgn
+tdht
+feDistantLightn
+gtnjf
+gnj
+fyjnf
+jnfy
+jnf
+y
+**/
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  div.header div.margin div.book-icon {
+    width: 350px;
+    align-items: center;
+  }
+  div.header div.margin div.mag-glass {
+    margin-top: -2px;
+    margin-left: 1px;
+  }
+  div.header div.margin div.book-icon img {
+    width: 100%;
+    height: 50px;
+  }
+  div.header div.margin div.book-icon input {
+    width: 500px;
+    font-size: 15px;
+  }
+  div.header div.margin div.header-right {
+    align-items: center;
+  }
+  div.header div.margin div.header-right select {
+    font-size: 15px;
+  }
+  div.header div.margin div.header-right input {
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+  div.main div.margin-large h4 {
+    margin-left: 27px;
+  }
+  div.main div.margin-large div.flex div.fa-left i {
+    font-size: 27px;
+  }
+  div.main div.margin-large div.flex div.fa-right i {
+    font-size: 27px;
+  }
+  div.main div.margin-large div.flex div.car {
+    margin: 0 3px;
+  }
+  div.main div.margin-large div.flex div.car img {
+    width: 100%;
+    height: 300px;
+  }
+  div.main div.margin-large div.flex div.car a {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+  div.main1 div.margin img {
+    width: 100%;
+    height: 70px;
+  }
+  /***vf
+  rv
+  verv
+  **/
+  div.main2 div.margin-large h3 {
+    font-size: 20px;
+    margin-right: 70px;
+  }
+  div.main2 div.margin-large div.flex div.main2-card img {
+    height: 170px;
+    width: 100%;
+  }
+
+  div.main2 div.margin-large div.flex div.main2-card {
+    margin: 0 0 0 10px;
+  }
+  div.main2 div.margin-large div.flex div.fa-left i {
+    font-size: 27px;
+  }
+  div.main2 div.margin-large div.flex div.fa-right i {
+    font-size: 27px;
+  }
+  div.main3 {
+    width: 100%;
+  }
+  div.main3 div.margin div.main3-img1 img {
+    width: 100%;
+    text-align: center;
+  }
+  div.main3 div.margin div.main3-img1 h4 {
+    font-size: 25px;
+  }
+  div.main3 div.margin div.main3-img1 p {
+    font-size: 14px;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie img {
+    height: 290px;
+    width: 100%;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie h4 {
+    font-size: 16px;
+    height: 16px;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie p {
+    font-size: 12px;
+  }
+  /*8768
+  gdb
+  bgfn
+  ***/
+  div.main4 div.margin div.flex1 div.movie h5 {
+    font-size: 14px;
+  }
+  div.main4 div.margin div.flex1 div.movie p {
+    font-size: 12px;
+  }
+  div.main4 div.margin div.flex2 div.movie h5 {
+    font-size: 14px;
+  }
+  div.main4 div.margin div.flex1 div.movie {
+    height: 80px;
+  }
+  /**
+  g
+  g
+  t
+  r**/
+  div.main5 div.margin h4 {
+    font-size: 22px;
+  }
+  div.main5 div.margin div.flex {
+    margin-top: 30px;
+  }
+  div.main5 div.margin div.flex div.content {
+    margin-right: 10px;
+  }
+  div.main5 div.margin div.flex div.content img {
+    height: 280px;
+    width: 100%;
+  }
+  div.main5 div.margin div.flex div.content h5 {
+    font-size: 15px;
+  }
+  div.main5 div.margin div.flex div.content p {
+    font-weight: 200;
+    font-size: 12px;
+  }
+  div.main6 div.margin div.content {
+    height: 40px;
+    width: 100%;
+  }
+  div.main6 div.margin div.content h6 {
+    padding-top: 10px;
+  }
+  div.footer div.margin div.footer1 div.foott div#listyourshow {
+    font-size: 15 px;
+  }
+  div.footer div.margin div.footer1 div.foott div.below-bmshow {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer1 div.buton a {
+    padding: 8px 10px;
+    font-size: large;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  div.header div.book-icon input {
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+    margin: 0;
+    padding: auto;
+  }
+  div.header div.margin {
+    width: 100%;
+    margin: 0%;
+    height: 70px;
+  }
+  div.header div.margin div.book-icon img {
+    height: 50px;
+    width: 100px;
+  }
+  div.header div.margin div.book-icon {
+    height: 70px;
+    align-items: center;
+  }
+  div.header div.margin div.header-right select {
+    display: none;
+  }
+  div.header div.margin div.header-right {
+    height: 70px;
+    margin: 0;
+    align-items: center;
+  }
+  div.header div.book-icon div.mag-glass {
+    display: none;
+  }
+  div.header-right input {
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 0;
+    height: 25px;
+  }
+  /****wef
+  wev
+  vr
+  ***/
+  div.header1 {
+    height: 80px;
+    width: 100%;
+  }
+  div.header1 div.margin {
+    width: 100%;
+    margin: 0;
+  }
+  div.header1 div.head1 {
+    display: block;
+    padding: 10px;
+  }
+  div.header1 div.head1 div.head1-left ul {
+    margin: 0;
+    margin: 0 50px 0 0;
+  }
+  div.header1 div.head1 div ul {
+    margin: 0;
+    justify-content: center;
+    margin: 0 50px 0 0;
+  }
+  div.header1 div.head1 div.head-left {
+    width: 100%;
+    padding: 8px 0;
+  }
+  div.header1 div.head1 div ul li {
+    font-size: 12px;
+  }
+  /**n
+  dsv
+  fv
+  r
+  **/
+  div.main {
+    margin: 30px 0 0 0;
+  }
+  div.main div.margin-large {
+    margin: 0%;
+  }
+  div.main div.margin-large h4 {
+    margin-left: 6px;
+  }
+  div.main div.margin-large div.flex i {
+    font-size: 10px;
+  }
+  div.main div.margin-large div.flex div.car {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  div.main div.margin-large div.flex div.car img {
+    width: 100%;
+    height: 120px;
+  }
+  div.main div.margin-large div.flex div.car a {
+    font-size: 8px;
+    padding: 2px 2px;
+    font-size: 8px;
+  }
+  div.main div.margin-large div.flex #fa {
+    margin: 6% 0;
+  } /*vjhvjh
+  **/
+  div.main1 div.margin img {
+    margin: 30px 0;
+    width: 100%;
+    height: 60px;
+  } /**jvhj
+  ewfew
+
+  ewf
+  ewf*/
+  div.main2 div.margin-large {
+    margin: 0%;
+  }
+  div.main2 div.margin-large h3 {
+    font-size: 18px;
+    margin: 0 0 0 5px;
+  }
+  div.main2 div.margin-large div.flex div.main2-card img {
+    width: 100%;
+    height: 70px;
+  }
+  div.main2 div.margin-large div.flex div.main2-card {
+    margin: 10px 0 0 5px;
+  }
+  div.main2 div.margin-large div.flex i {
+    font-size: 10px;
+  }
+
+  /*hgcvhg
+  jhb
+  kjbh*/
+  div.main3 {
+    height: 350px;
+  }
+  div.main3 div.margin {
+    margin: 0;
+  }
+  div.main3 div.margin div.main3-img1 img {
+    width: 100%;
+    height: 50px;
+  }
+  div.main3 div.margin div.flex2 div {
+    margin: 0 4px;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie img {
+    width: 100%;
+    height: 150px;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie h4 {
+    font-size: 10px;
+  }
+  div.main3 div.margin div.flex2 div.main3-movie p {
+    font-size: 7px;
+  }
+  /*jhv
+  ecf
+  ef
+  ef
+  **/
+  div.main4 {
+    height: 180px;
+  }
+  div.main4 div.margin {
+    margin: 0;
+  }
+  div.main4 div.margin h4 {
+    margin-left: 5px;
+  }
+  div.main4 div.margin div.flex1 div.movie {
+    width: 70px;
+    height: 50px;
+  }
+  div.main4 div.margin div.flex2 div.movie {
+    width: 50px;
+    height: 50px;
+  }
+  div.main4 div.margin div.flex1 div.movie h5 {
+    font-size: 7px;
+  }
+  div.main4 div.margin div.flex1 div.movie p {
+    font-size: 5px;
+  }
+  div.main4 div.margin div.flex2 div.movie h5 {
+    font-size: 7px;
+  }
+  div.main4 div.margin div.flex2 div.movie p {
+    font-size: 5px;
+  }
+  div.main4 div.margin div.flex1 div.movie {
+    margin: 3px;
+    padding: 8px;
+  }
+  div.main4 div.margin div.flex2 div.movie {
+    margin: 3px;
+    padding: 8px;
+  }
+  /***ubiqfj
+  ewf
+  ewf
+  wef***?
+  6y88888888/*/
+  div.main5 {
+    height: 250px;
+    margin: 50px 0;
+  }
+  div.main5 div.margin {
+    margin: 0;
+    width: 100%;
+  }
+  div.main5 div.margin h4 {
+    margin-left: 5px;
+  }
+  div.main5 div.margin div.flex div.content {
+    margin-right: 2px;
+  }
+  div.main5 div.margin div.flex div.content img {
+    width: 100%;
+    height: 100px;
+  }
+  div.main5 div.margin div.flex div.content h5 {
+    font-size: 12px;
+  }
+  div.main5 div.margin div.flex div.content p {
+    font-size: 9px;
+  }
+  div.footer div.margin div.footer1 {
+    margin: 20px 0;
+  }
+  div.footer div.margin div.footer1 div.foott img {
+    height: 20px;
+  }
+  div.footer div.margin div.footer1 div.foott {
+    width: 300px;
+  }
+  div.footer div.margin div.footer1 div.foott div#listyourshow {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer1 div.foott div {
+    margin: 5px;
+  }
+  div.footer div.margin div.footer1 div.foott div.below-bmshow {
+    font-size: 8px;
+  }
+  div.footer div.margin div.footer1 div.buton a {
+    padding: 3px 5px;
+    font-size: 8px;
+  }
+  div.footer div.margin div.footer2 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  div.footer div.margin div.footer3 {
+    width: 100%;
+    margin: 30px 0 30px 0;
+  }
+  div.footer div.margin div.footer3 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer3 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer4 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer4 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer5 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer5 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer6 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer6 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer7 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer7 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer8 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer8 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.footer9 h6 {
+    font-size: 12px;
+  }
+  div.footer div.margin div.footer9 a {
+    font-size: 10px;
+  }
+  div.footer div.margin div.socialmedia {
+    width: 100%;
+    height: 30px;
+  }
+  div.footer div.margin div.socialmedia i {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+}
